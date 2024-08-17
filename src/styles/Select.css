@@ -1,0 +1,19 @@
+.Select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+  width: 350px;
+}
+
+.Opened-select {
+  background-color: #232b3a !important;
+}
+
+.Display-value {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 85%;
+}

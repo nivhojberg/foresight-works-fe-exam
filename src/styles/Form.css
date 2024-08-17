@@ -1,0 +1,42 @@
+.Form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #080808;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 1px 15px 29px 0px #00000082;
+  -webkit-box-shadow: 1px 15px 29px 0px #00000082;
+  -moz-box-shadow: 1px 15px 29px 0px #00000082;
+}
+
+.Text-input, .Select, .Button {
+  padding: 4px 12px;
+  background-color: #1f2023;
+  border: 1px solid #3c3f44;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #f7f8f8;
+  height: 40px;
+}
+
+.Text-input {
+  appearance: none;
+  transition: border 0.15s ease 0s;
+  display: block;
+}
+
+.Text-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #6499ff;
+}
+
+.Button, .Select {
+  cursor: pointer;
+}
+
+.Select:hover, .Button:hover {
+  background-color: #232b3a;
+}

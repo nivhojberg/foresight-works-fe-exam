@@ -1,26 +1,17 @@
-import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Form from './components/Form';
+import { LOGO_TEST_ID } from './constants/tests.constants';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className='App'>
+      <header className='App-header'>
+        <img src={logo} className='App-logo' alt='logo' data-testid={LOGO_TEST_ID} />
       </header>
+      <Form />
     </div>
   );
-}
+};
 
 export default App;

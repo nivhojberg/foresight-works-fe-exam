@@ -1,0 +1,34 @@
+.Select-panel {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  z-index: 1;
+  width: 100%;
+  background: #232b3a;
+  border: 1px solid #3c3f44;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Select-panel-background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  cursor: default;
+}
+
+.Options-container {
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0px 8px;
+}
